@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Client for Communication Between Tabs</title>
+  </head>
+  <body>
+  </body>
+  <script>
+    window.onload = () => {
+      setInterval(() => {
+        console.log(localStorage.getItem('message'));
+      }, 5000);
+    }
+  </script>
+</html>
